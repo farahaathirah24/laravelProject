@@ -53,6 +53,4 @@ For more details and to access the BootstrapLimitless kit, visit: [BootstrapLimi
 
 2. Author List Table
 
-- Author Name: Displays the name of each author.
-- Email Address: Shows the email address associated with each author.
-- Join Date: Indicates the date when each author joined the platform.
+- Displays the details of each author.
