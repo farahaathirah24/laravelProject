@@ -30,10 +30,7 @@ Route::post('/registerProc', [AuthController::class, 'registerProc'])->name('reg
 Route::middleware(['auth'])->group(function () {
      //dashboard
     Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard.index');
-    // Route::get('/dashboard/export', [dashboardController::class, 'export'])->name('dashboard.export');
     Route::get('/dashboard/export', [dashboardController::class, 'export'])->name('dashboard.export');
-
-    // Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
     //  user profile
     Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');

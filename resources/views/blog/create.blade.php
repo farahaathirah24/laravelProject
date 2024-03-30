@@ -1,5 +1,3 @@
-<!-- resources/views/blogs/create.blade.php -->
-
 @extends('template/templateMain')
 
 @section('content')
