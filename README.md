@@ -42,3 +42,15 @@ Utilized the BootstrapLimitless responsive web application kit for styling the a
 - Leveraged the features and components provided by BootstrapLimitless to enhance the visual appeal and usability of the application.
 
 For more details and to access the BootstrapLimitless kit, visit: [BootstrapLimitless - Responsive Web Application Kit](https://themeforest.net/item/limitless-responsive-web-application-kit/13080328)
+## Added Features
+
+1. Analytics Dashboard
+
+- Total Users: Displays the total number of registered users.
+- Total Posts: Shows the overall count of blog posts.
+- Total Comments: Tracks the total number of comments on blog entries.
+- User Engagement Score: Calculates a comprehensive engagement score based on various user interactions, including views, likes, shares, and comments.
+
+2. Author List Table
+
+- Displays the details of each author.
