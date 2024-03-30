@@ -3,6 +3,49 @@
 @extends('template/templateMain')
 
 @section('content')
+<div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">Analytics Dashboard</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Total Users</h5>
+                            <p class="card-text">{{ $users->total() }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Total Posts</h5>
+                            <p class="card-text">{{ count($recentPosts) }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Total Comments</h5>
+                            <p class="card-text">{{ $totalComments }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">User Engagement</h5>
+                            <p class="card-text">{{ $totalEngagement }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="card">
         <div class="card-header">
             <h5 class="mb-0">Latest posts</h5>
