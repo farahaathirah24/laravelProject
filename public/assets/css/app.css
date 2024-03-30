@@ -1,0 +1,39 @@
+:root,
+[data-color-theme=light] {
+--theme : #4d0707;
+--theme-rgb : 5, 28, 131;
+--nav-link-active-color2: rgba(var(--theme-rgb));
+--nav-link-active-bg2: rgba(var(--theme-rgb), 0.15);
+}
+
+.bg-theme {
+    --bg-opacity : 1;
+    background-color: rgba(var(--theme-rgb), var(--bg-opacity)) !important;
+    color: white !important;
+}
+
+.border-theme {
+    --border-opacity: 1;
+    border-color: rgba(var(--theme-rgb), var(--border-opacity)) !important;
+}
+
+.text-theme {
+    color: rgba(var(--theme-rgb)) !important;
+}
+
+.nav-link {
+    width: 90%;
+    margin: auto;
+}
+.nav-link:hover, .nav-link:focus {
+    border-radius: 0.5rem;
+}
+.nav-link.active {
+    background-color: var(--nav-link-active-bg) !important;
+    color: var(--nav-link-active-color) !important;
+    border-radius: 0.5rem;
+}
+
+.bg-opacity-10 {
+    --bg-opacity : 0.1;
+}
